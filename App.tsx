@@ -12,7 +12,7 @@ import {
 import AudioRecord from 'react-native-audio-record';
 import {Buffer} from 'buffer';
 
-const DEEPGRAM_API_KEY = 'Add_YOUR_DEEPGRAM_KEY_HERE';
+const DEEPGRAM_API_KEY = 'ADD_YOUR_DEEPGRAM_KEY_HERE';
 
 const App: React.FC = () => {
   const [transcript, setTranscript] = useState<string>('');
